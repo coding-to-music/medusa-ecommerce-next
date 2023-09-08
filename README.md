@@ -31,8 +31,14 @@ nvm use 18
 
 ## Environment variables:
 
+see `.env.template`
+
 ```java
-none
+JWT_SECRET=something
+COOKIE_SECRET=something
+
+DATABASE_TYPE="postgres"
+REDIS_URL=redis://localhost:6379
 ```
 
 ## GitHub
